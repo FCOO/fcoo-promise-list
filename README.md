@@ -1,2 +1,2 @@
 # fcoo-promise-list
-FCOO version of promise-list
+Create a version of promise-list as `window.fcoo.promiseList`
