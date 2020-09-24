@@ -1,0 +1,26 @@
+{
+  "name": "fcoo-promise-list",
+  "version": "1.0.0",
+  "homepage": "https://github.com/FCOO/fcoo-promise-list",
+  "authors": "Niels Holt",
+  "description": "",
+  "main": "dist/fcoo-promise-list.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/FCOO/fcoo-promise-list.git"
+  },
+  "dependencies": {
+    "promise-list": "fcoo/promise-list#^1.0.0"
+  },
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "moduleType": [
+    "es6"
+  ]
+}
