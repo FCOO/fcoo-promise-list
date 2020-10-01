@@ -14,6 +14,16 @@
     //Create fcoo-namespace
     var ns = window.fcoo = window.fcoo || {};
 
+    //Overwrite intervals.isFileName and window.intervals.getFileName to use FCOO filename conventions
+    window.intervals.isFileName = function(fileNameOrData){
+        return (($.type(fileNameOrData) == 'string') || (fileNameOrData.subDir && fileNameOrData.fileName));
+    };
+
+    window.intervals.getFileName = function(fileName){
+        return ns.dataFilePath(fileName);
+    };
+
+    //Create common FCOO PromiseList
     ns.promiseList = new window.PromiseList({
 
     });
